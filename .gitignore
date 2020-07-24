@@ -4,6 +4,7 @@ node_modules
 
 # Build
 dist
+remote-trigger.zip
 
 # Docker
 data

@@ -5,6 +5,7 @@
   "main": "",
   "scripts": {
     "build": "rm -rf ./dist/* && directus-extensions build",
+    "pack": "cp -r ./dist/ ./remote-trigger && zip -r remote-trigger.zip remote-trigger/ && rm -rf ./remote-trigger",
     "dev": "directus-extensions watch"
   },
   "keywords": [],

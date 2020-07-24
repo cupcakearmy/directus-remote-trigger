@@ -1,16 +1,12 @@
 {
-  "name": "advanced-webhooks",
-  "version": "1.0.0",
-  "description": "",
-  "main": "",
+  "private": true,
   "scripts": {
     "build": "rm -rf ./dist/* && directus-extensions build",
-    "pack": "cp -r ./dist/ ./remote-trigger && zip -r remote-trigger.zip remote-trigger/ && rm -rf ./remote-trigger",
+    "pack": "npm run build && cp -r ./dist/ ./remote-trigger && zip -r remote-trigger.zip remote-trigger/ && rm -rf ./remote-trigger",
     "dev": "directus-extensions watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "GPL-3.0",
+  "author": "Niccolo Borgioli",
+  "license": "MIT",
   "dependencies": {
     "vue": "^2.6.11",
     "vue-hot-reload-api": "^2.3.4"

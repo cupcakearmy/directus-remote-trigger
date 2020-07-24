@@ -24,7 +24,7 @@ services:
   directus:
     image: directus/directus:v8-apache
     volumes:
-      - ./dist:/var/directus/public/extensions/custom/modules/remote-trigger
+      - ./remote-trigger:/var/directus/public/extensions/custom/modules/remote-trigger
 ```
 
 ## Local

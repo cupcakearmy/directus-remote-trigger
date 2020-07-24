@@ -2,13 +2,30 @@
 
 Trigger remote urls in the Directus admin view.
 
+![Screenshot](https://i.imgur.com/Cnl3PBn.png)
+
 ## Motivation
 
 I needed a way to trigger my Vercel build as the native hooks support in the settings page would require a hook for each crud operation on each collection.
 
 ## Getting Started 🚀
 
-![Screenshot](https://i.imgur.com/Cnl3PBn.png)
+1. Download the [latest release](https://github.com/cupcakearmy/directus-remote-trigger/releases)
+2. Unzip
+3. Add it to the docker config
+
+```yaml
+version: '3.7'
+
+services:
+  mysql:
+    ...
+
+  directus:
+    image: directus/directus:v8-apache
+    volumes:
+      - ./dist:/var/directus/public/extensions/custom/modules/remote-trigger
+```
 
 ## Local
 

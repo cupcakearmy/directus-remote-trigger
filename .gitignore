@@ -1,0 +1,9 @@
+# Node
+.cache
+node_modules
+
+# Build
+dist
+
+# Docker
+data

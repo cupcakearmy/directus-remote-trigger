@@ -1,0 +1,7 @@
+{
+  "name": "Remote Trigger",
+  "version": "1.0.0",
+  "icon": "build",
+  "types": ["string"],
+  "options": {}
+}

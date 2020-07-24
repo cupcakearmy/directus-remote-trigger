@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  mysql:
+    image: mysql:5.7
+    env_file: .env
+    volumes:
+      - ./data/db:/var/lib/mysql
+
+  directus:
+    image: directus/directus:v8-apache
+    env_file: .env
+    volumes:
+      - ./data/config:/var/directus/config
+      - ./data/uploads:/var/directus/public/uploads
+      - ./dist:/var/directus/public/extensions/custom/modules/remote-trigger
+    ports:
+      - 80:80

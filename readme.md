@@ -10,8 +10,8 @@ I needed a way to trigger my Vercel build as the native hooks support in the set
 
 ## Getting Started 🚀
 
-1. Download the [latest release](https://github.com/cupcakearmy/directus-remote-trigger/releases)
-2. Unzip
+1. Download the [latest release](https://github.com/cupcakearmy/directus-remote-trigger/releases/latest)
+2. Unzip `unzip remote-trigger.zip`
 3. Add it to the docker config
 
 ```yaml

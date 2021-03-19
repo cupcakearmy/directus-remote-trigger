@@ -4,7 +4,7 @@ Trigger remote urls in the Directus admin view.
 
 ![Screenshot](https://i.imgur.com/Cnl3PBn.png)
 
-> ## ⚠️ As of Directus 9 this is mostly solved natively and you should use the biult in webhooks
+> ## ⚠️ As of Directus 9 this is mostly solved natively and you should use the built in webhooks
 
 ## Motivation
 

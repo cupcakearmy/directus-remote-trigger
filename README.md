@@ -4,6 +4,8 @@ Trigger remote urls in the Directus admin view.
 
 ![Screenshot](https://i.imgur.com/Cnl3PBn.png)
 
+> ## ⚠️ As of Directus 9 this is mostly solved natively and you should use the biult in webhooks
+
 ## Motivation
 
 I needed a way to trigger my Vercel build as the native hooks support in the settings page would require a hook for each crud operation on each collection.

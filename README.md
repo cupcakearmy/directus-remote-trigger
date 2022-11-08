@@ -1,10 +1,12 @@
+> ## ⚠️ As of Directus 9 this is not longer needed!
+> 
+> Use the native [WebHooks](https://docs.directus.io/reference/system/webhooks.html#webhooks)
+
 # Directus Remote Trigger
 
 Trigger remote urls in the Directus admin view.
 
 ![Screenshot](https://i.imgur.com/Cnl3PBn.png)
-
-> ## ⚠️ As of Directus 9 this is mostly solved natively and you should use the built in webhooks
 
 ## Motivation
 
